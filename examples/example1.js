@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-var sanitizer = require('../lib/sanitizer');
+var sanitizer = require('../index');
 app.use(sanitizer.middleware(['password', 'card', 'email', 'fcuk']))
 
 // build response object
