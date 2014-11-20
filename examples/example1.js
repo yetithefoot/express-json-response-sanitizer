@@ -28,6 +28,19 @@ var OBJECT_TO_RESPOND = {
 // just curl it or open in browser
 app.get('/', function(req, res){
 	res.json(200, OBJECT_TO_RESPOND);
+	// will return sanitized object
+	// {
+	// 	"counter": 123,
+	// 	"msg": "Lorem ipsum...",
+	// 	"user": {
+	// 			"geo": {
+	// 					"code": "US",
+	// 					"latitude": "0.0",
+	// 					"longitude": "0.0"
+	// 			},
+	// 			"name": "John Doe"
+	// 	}
+}
 });
 
 app.listen(3000);
