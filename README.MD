@@ -36,18 +36,18 @@ var OBJECT_TO_RESPOND = {
 
 app.get('/', function(req, res){
     res.json(200, OBJECT_TO_RESPOND);
-    // will return sanitized response
--   // {
--   //  "msg": "Lorem ipsum...",
--   //  "user": {
--   //          "geo": {
--   //                  "code": "US",
--   //                  "latitude": "0.0",
--   //                  "longitude": "0.0"
--   //          },
--   //          "name": "John Doe"
--   //  }
--   //  "counter": 123,
+    // will responds with sanitized object
+    // {
+    //  "msg": "Lorem ipsum...",
+    //  "user": {
+    //          "geo": {
+    //                  "code": "US",
+    //                  "latitude": "0.0",
+    //                  "longitude": "0.0"
+    //          },
+    //          "name": "John Doe"
+    //  }
+    //  "counter": 123,
 });
 
 app.listen(3000);
