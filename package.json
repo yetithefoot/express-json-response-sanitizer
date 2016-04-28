@@ -2,7 +2,7 @@
   "name": "json-sanitizer",
   "author": "Vlad Tsepelev <reg.yeti@gmail.com> (http://yetithefoot.com/)",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js json response sanitizer middleware",
   "main": "node app.js",
   "scripts": {
@@ -11,10 +11,8 @@
   "engines": {
     "node": ">= 0.10"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "repository": "yetithefoot/json-sanitizer",
   "keywords": [
     "express",
@@ -22,5 +20,5 @@
     "middleware",
     "sanitize",
     "response"
-   ]
+  ]
 }
