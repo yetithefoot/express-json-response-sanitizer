@@ -1,5 +1,5 @@
 {
-  "name": "express-response-json-sanitizer",
+  "name": "express-json-response-sanitizer",
   "author": "Vlad Tsepelev <reg.yeti@gmail.com> (http://yetithefoot.com/)",
   "license": "MIT",
   "version": "0.3.0",
@@ -10,7 +10,7 @@
     "np": "np"
   },
   "devDependencies": {},
-  "repository": "yetithefoot/express-response-json-sanitizer",
+  "repository": "yetithefoot/express-json-response-sanitizer",
   "keywords": [
     "express",
     "json",
