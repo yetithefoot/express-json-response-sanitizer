@@ -4,6 +4,12 @@ Problem
 ---
 App (express) should sanitize sensitive response data.
 
+
+Install
+---
+`npm install express-json-response-sanitizer`
+
+
 Usage
 ---
 
