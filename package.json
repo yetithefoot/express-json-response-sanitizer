@@ -2,7 +2,7 @@
   "name": "express-response-json-sanitizer",
   "author": "Vlad Tsepelev <reg.yeti@gmail.com> (http://yetithefoot.com/)",
   "license": "MIT",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Express json response sanitizer middleware",
   "main": "index.js",
   "scripts": {
