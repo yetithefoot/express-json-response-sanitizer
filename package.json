@@ -1,19 +1,16 @@
 {
-  "name": "json-sanitizer",
+  "name": "express-response-json-sanitizer",
   "author": "Vlad Tsepelev <reg.yeti@gmail.com> (http://yetithefoot.com/)",
   "license": "MIT",
-  "version": "0.1.0",
-  "description": "Node.js json response sanitizer middleware",
-  "main": "node app.js",
+  "version": "0.2.0",
+  "description": "Express json response sanitizer middleware",
+  "main": "index.js",
   "scripts": {
-    "test": "exit 0;"
+    "test": "exit 0;",
+    "np": "np"
   },
-  "engines": {
-    "node": ">= 0.10"
-  },
-  "dependencies": {},
   "devDependencies": {},
-  "repository": "yetithefoot/json-sanitizer",
+  "repository": "yetithefoot/express-response-json-sanitizer",
   "keywords": [
     "express",
     "json",
