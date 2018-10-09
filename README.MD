@@ -1,9 +1,4 @@
-Json response sanitizer middleware.
-
-Problem
----
-App (express) should sanitize sensitive response data.
-
+Express API should sanitize sensitive json data on `res.json`?
 
 Install
 ---
@@ -13,7 +8,7 @@ Install
 Usage
 ---
 
-Use this module as app level middleware to cleanup sensitive response data based on keys.
+Use this module as app level middleware to remove sensitive data from json response based on specified property names.
 
 ```javascript
 var express = require('express');
